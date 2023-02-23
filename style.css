@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    color: green;
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+#output {
+    overflow: auto;
+    max-height: 400px;
+}
+
+.input-line {
+    display: flex;
+}
+
+.prompt {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: black;
+}
+
+.input-field {
+    flex: 1;
+    background-color: black;
+    border-color: transparent;
+}
+
+.input-field:focus{
+    outline: none;
+    color: green;
+}
